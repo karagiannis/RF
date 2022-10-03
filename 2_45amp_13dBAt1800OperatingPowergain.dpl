@@ -1,0 +1,29 @@
+<Qucs Schematic 0.0.20>
+<Properties>
+  <View=0,0,800,800,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=2_45amp_13dBAt1800OperatingPowergain.dat>
+  <DataDisplay=2_45amp_13dBAt1800OperatingPowergain.sch>
+  <OpenDisplay=1>
+  <Script=2_45amp_13dBAt1800OperatingPowergain.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+  <Eqn SourceStubLength 1 270 90 -31 19 0 0 "y=1" 1 "SourceStub=1000*0.118627*3E8/1.8E9" 1 "yes" 0>
+  <Eqn SourceSeriesLength 1 270 210 -31 19 0 0 "y=1" 1 "SourceSeries=1000*0.067414*3E8/1.8E+9" 1 "yes" 0>
+  <Eqn LoadStubLength 1 270 330 -31 19 0 0 "LoadStub=1000*0.083431*3E8/1.8E9" 1 "yes" 0>
+  <Eqn LoadSeriesLength 1 270 440 -31 19 0 0 "LoadSeries=1000*0.034266*3E8/1.8E9" 1 "yes" 0>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+</Diagrams>
+<Paintings>
+</Paintings>

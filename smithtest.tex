@@ -1,0 +1,19 @@
+\documentclass[margin=10pt]{standalone}
+\usepackage{verbatim}
+\usepackage{tikz}
+\usepackage{pgf}
+\usepackage{pgfplots}
+\usetikzlibrary{shapes,arrows,positioning,calc}
+\usetikzlibrary{pgfplots.smithchart}
+
+\begin{document}
+\begin{tikzpicture}
+\begin{smithchart}[title=S]
+\addplot[is smithchart cs,red] coordinates{
+(-1,0)
+(1,0)
+};
+\end{smithchart}
+\end{tikzpicture}
+
+\end{document}

@@ -1,0 +1,37 @@
+<Qucs Schematic 0.0.20>
+<Properties>
+  <View=-106,-60,1259,800,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=2_45amp.dat>
+  <DataDisplay=2_45amp.sch>
+  <OpenDisplay=1>
+  <Script=2_45amp.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+  <Eqn Eqn1 0 760 80 -31 19 0 0 "GT=(abs(S[2,1])/abs(S[1,2]))*(Rollet(S)-sqrt(Rollet(S)^2-1)" 1 "yes" 0>
+  <Eqn Load_Stub_Length1 0 760 180 -31 19 0 0 "load_stub=1000*0.145732*3E8/2.4E9" 1 "yes" 0>
+  <Eqn Load_Series_Length1 0 760 310 -31 19 0 0 "load_series=1000*0.258049*3E+8/2.4E+9" 1 "yes" 0>
+  <Eqn Serial_source_line1 0 780 610 -31 19 0 0 "serial_source=1000*0.027160*3E8/2.4E9" 1 "yes" 0>
+  <Eqn Source_Stub_length1 0 770 460 -31 19 0 0 "source_stub=1000*0.174063*3E8/2.4E9" 1 "yes" 0>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 30 170 240 160 3 #c0c0c0 1 00 1 -1 0.5 1 1 -1 1 1 1 -1 1 1 315 0 225 "" "" "" "">
+	<"S21dB" #ff0000 0 3 0 0 0>
+  </Rect>
+  <Rect 40 440 240 160 3 #c0c0c0 1 00 1 2e+09 2e+08 2.8e+09 1 -77.4194 50 5.22994 1 -1 1 1 315 0 225 "" "" "" "">
+	<"S22dB" #ff0000 0 3 0 0 0>
+	<"S11dB" #ff00ff 0 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

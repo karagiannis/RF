@@ -1,0 +1,30 @@
+<Qucs Schematic 0.0.20>
+<Properties>
+  <View=0,0,800,800,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=2_45amp_rf_MAX_GAINTee.dat>
+  <DataDisplay=2_45amp_rf_MAX_GAINTee.sch>
+  <OpenDisplay=1>
+  <Script=2_45amp_rf_MAX_GAINTee.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Tab 240 260 300 200 3 #c0c0c0 1 00 1 0 1 1 1 0 1 1 1 0 1 10 315 0 225 "" "" "" "">
+	<"S21dB" #0000ff 0 3 1 0 0>
+	<"S22dB" #0000ff 0 3 1 0 0>
+	<"S11dB" #0000ff 0 3 1 0 0>
+  </Tab>
+</Diagrams>
+<Paintings>
+</Paintings>

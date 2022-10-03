@@ -1,0 +1,30 @@
+\documentclass{article}
+\usepackage{tikz}
+\newcommand\mtotex[2]{\immediate\write18{m4 #2.m4 | dpic -#1 > #2.tex}}
+\begin{filecontents*}[noheader,force]{sample.m4}
+include(pgf.m4)
+.PS
+cct_init
+elen = 0.75
+Origin: Here
+    source(up_ elen); llabel(-,v_s,+)
+	resistor(right_ elen); rlabel(,R,)
+    dot
+    {  
+        capacitor(down_ to (Here,Origin))
+        rlabel(+,v,-);llabel(,C,)
+        dot
+    }
+    line right_ elen*3/3
+    inductor(down_ Here.y-Origin.y); rlabel(,L,);b_current(i)
+    line to Origin
+.PE
+\end{filecontents}
+\begin{document}
+     \mtotex{g}{sample.m4}
+    \begin{figure}[ht]
+      \input{sample}
+      \caption{Customized caption for the figure.}
+     \label{Symbolic_label}
+   \end{figure}
+\end{document}
